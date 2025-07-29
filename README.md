@@ -13,11 +13,6 @@ In typical JPEG compression, the DCT step is the most multiplication-intensive b
 To address this, an approximate eight by eight Vedic multiplier was designed using the Urdhva Tiryakbhyam sutra and integrated into the DCT block of a JPEG compressor. The core idea is to replace exact multiplications in the DCT computation with approximate ones that are less complex and more power-efficient, especially targeting the least significant bits to minimize error impact. The proposed multiplier uses a novel approximate full adder in its partial product accumulation stage and was evaluated for power, area, delay, and error metrics. The modified DCT block, implemented in Verilog and tested using a Python testbench, was further integrated into a JPEG compression flow.
 
 
-##  Results Achieved
-
-Certainly, Mithun. Here's the **"Results Achieved"** section with proper formatting and exact **numerical values** instead of written words:
-
----
 
 ## 📊 Results Achieved
 
